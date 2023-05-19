@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--HTMLのバージョン指定をしているらしい-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--// インターネットエクスプローラーの互換性を補填している。-->
+    <!--// Internet Explorerだったら最新版で使ってねと言うメッセージ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>Marunish's Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--// 相対パスをみた。-->
+</head>
+<body>
+    <!-- あいうえお -->
+    <!-- ヘッダー -->
+    <header>
+        <a href="index.html">Marunish's Portfolio</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- メインビジュアル -->
+    <div class="main-visual">
+        <div>
+            <h1>Marunish's portfolio site</h1>
+            <p>web engineer</p>
+        </div>
+        
+    </div>
+    <main>
+        <!-- About -->
+        <section id = "about">
+            <h2>About</h2>
+            <div id="about-name">
+                <!-- 名前とふりがなを記載 -->
+                <h3>丸西</h3>
+                <p>maru nishi</p>
+            </div>
+        <div id="about-detail">
+            <p>
+                東京大学工学部都市工学科都市計画コース在学中。<br>
+                駆け出しWebエンジニアとして勉強中。<br>
+                専攻は建築、乗り物が好きな一級船舶操縦士。
+            </p>
+            <img src="./img/ima2.png">
+        </div>
+        </section>
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <h3>HTML / CSS</h3>
+                    <p>大学の講義では取り扱わず、Progate・書籍にて学習しました。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript / Node.js</h3>
+                    <p>フロントサイドでは、動きのある動作を作るために使用しました。 Node.js は、ビルドに使用したことがあります。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>PHP</h3>
+                    <p>Laravelというフレームワークで、データベースを操作するアプリケーションを制作しました。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>MySQL</h3>
+                    <p>簡単なSQL文が書けます。PostgreSQL等の他のデータベースにも挑戦しようと考えています。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>QGIS</h3>
+                    <p>大学の講義でチュートリアルを済ませ、政府のデータで町丁目を塗り分けたり交通量を地図に表現したことがあります。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Archicad</h3>
+                    <p>500m^2程度の敷地面積の賃貸住宅、一棟50戸程度の集合住宅を作成したことがあります。</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Works -->
+        <section id="works">
+            <h2>Works</h2>
+            <div class="work-item">
+                <img src="./img/ima.png">
+                <div class="work-description">
+                    <h3>ポートフォリオサイト</h3>
+                    <p>現在表示しているサイトです。学習サイトを参考にしながら、制作しました。初めてWebページを作成することを知りました。</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqi2tWEv-at3K_tISOCVqBix7iLn8Lfle9SVFjvLkJqbxpaQ/viewform?embedded=true" width="640" height="713" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        </section>
+    </main>
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2023 tech Marunish</p>
+    </footer>
+</body>
+</html>
